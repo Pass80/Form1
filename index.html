@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <label for="name">Name<span>*</span></label>
+            </div>
+            <div>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Vorname"
+                    required
+                />
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Nachname"
+                    required
+                />
+            </div>
+            <div>
+                <label for="email">E-mail<span>*</span></label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" required />
+            </div>
+
+            <div>
+                <div><label for="thema">Thema</label></div>
+                <div>
+                    <select id="thema">
+                        <option value="General">General</option>
+                        <option value="Partnership">Partnership</option>
+                        <option value="Advertise">Advertise</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nachricht">Nachrichten<span>*</span></label>
+                </div>
+                <div>
+                    <textarea
+                        id="nachricht"
+                        name="thema"
+                        rows="10"
+                        cols="50"
+                    ></textarea>
+                </div>
+
+                <input type="submit" id="submit" />
+            </div>
+        </div>
+    </body>
+</html>
